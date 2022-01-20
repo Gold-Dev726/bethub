@@ -1,0 +1,97 @@
+	07:12:55.5555 
+ Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xF0\x9F\xA4\x99' for column 'message' at row 1
+    at Query.Sequence._packetToError (/var/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/var/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/var/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/var/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/var/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/var/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/var/server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/var/server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (/var/server/node_modules/mysql/lib/Pool.js:199:23)
+    at eval (eval at <anonymous> (/var/server/server.js:1128:1), <anonymous>:1145:8)
+    at chat_getMentions (eval at <anonymous> (/var/server/server.js:1128:1), <anonymous>:1187:23)
+    at chat_writeMessage (eval at <anonymous> (/var/server/server.js:1128:1), <anonymous>:1144:2)
+    at chat_checkMessage (eval at <anonymous> (/var/server/server.js:1128:1), <anonymous>:1102:3)
+    at userRequest_request (/var/server/server.js:815:43)
+    at Query.<anonymous> (/var/server/server.js:684:14)
+    at Query.<anonymous> (/var/server/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/var/server/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/var/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+
+	07:13:11.1111 
+ Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xF0\x9F\x98\x8A' for column 'message' at row 1
+    at Query.Sequence._packetToError (/var/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/var/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/var/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/var/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/var/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/var/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/var/server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/var/server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    --------------------
+    at Pool.query (/var/server/node_modules/mysql/lib/Pool.js:199:23)
+    at eval (eval at <anonymous> (/var/server/server.js:1128:1), <anonymous>:1145:8)
+    at chat_getMentions (eval at <anonymous> (/var/server/server.js:1128:1), <anonymous>:1187:23)
+    at chat_writeMessage (eval at <anonymous> (/var/server/server.js:1128:1), <anonymous>:1144:2)
+    at chat_checkMessage (eval at <anonymous> (/var/server/server.js:1128:1), <anonymous>:1102:3)
+    at userRequest_request (/var/server/server.js:815:43)
+    at Query.<anonymous> (/var/server/server.js:684:14)
+    at Query.<anonymous> (/var/server/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/var/server/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/var/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+
+	04:15:11.1111 
+ Error: That amount is larger than your balance!
+    at IncomingMessage.<anonymous> (/var/server/node_modules/coinpayments/dist/internal.js:91:35)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+	10:56:14.1414 
+ Error: Invalid response
+    at IncomingMessage.<anonymous> (/var/server/node_modules/coinpayments/dist/internal.js:88:35)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+	10:57:00.000 
+ Error: Invalid response
+    at IncomingMessage.<anonymous> (/var/server/node_modules/coinpayments/dist/internal.js:88:35)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+	10:57:11.1111 
+ Error: Invalid response
+    at IncomingMessage.<anonymous> (/var/server/node_modules/coinpayments/dist/internal.js:88:35)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+	11:02:56.5656 
+ Error: Invalid response
+    at IncomingMessage.<anonymous> (/var/server/node_modules/coinpayments/dist/internal.js:88:35)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+	11:03:23.2323 
+ Error: Invalid response
+    at IncomingMessage.<anonymous> (/var/server/node_modules/coinpayments/dist/internal.js:88:35)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+	11:06:03.033 
+ Error: Invalid response
+    at IncomingMessage.<anonymous> (/var/server/node_modules/coinpayments/dist/internal.js:88:35)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+

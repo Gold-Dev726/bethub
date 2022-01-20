@@ -1,0 +1,196 @@
+	06:34:09.099 
+ Error: Cannot find module './config.js'
+Require stack:
+- E:\dev\projects\vgowitch-server\scripts\trading\steam_bot_manager.js
+- E:\dev\projects\vgowitch-server\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:880:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:725:27)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\scripts\trading\steam_bot_manager.js:10:15)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+
+	06:34:09.099 
+ Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1041:1), <anonymous>:15:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1041:1), <anonymous>:13:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1041:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+
+	06:34:09.099 
+ Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1041:1), <anonymous>:38:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1041:1), <anonymous>:13:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1041:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+
+	06:34:09.099 
+ Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_checkRound (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1041:1), <anonymous>:230:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1041:1), <anonymous>:228:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1041:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+
+	06:34:09.099 
+ Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at crashGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1042:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1042:1), <anonymous>:5:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1042:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+
+	06:34:09.099 
+ Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at crashGame_checkGame (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1042:1), <anonymous>:290:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1042:1), <anonymous>:288:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1042:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+
+	06:34:09.099 
+ Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at jackpotGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1043:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1043:1), <anonymous>:5:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1043:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+
+	06:34:09.099 
+ Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at jackpotGame_checkGames (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1043:1), <anonymous>:70:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1043:1), <anonymous>:67:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1043:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+
+	06:34:09.099 
+ Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at coinflipGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1044:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1044:1), <anonymous>:5:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1044:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+
+	06:34:09.099 
+ Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at diceGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1045:1), <anonymous>:9:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1045:1), <anonymous>:7:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1045:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+

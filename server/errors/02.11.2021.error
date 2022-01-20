@@ -1,0 +1,117 @@
+	09:37:17.1717 
+ Error: Cannot find module 'nodemailer'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at eval (eval at <anonymous> (/var/server/server.js:911:1), <anonymous>:1:18)
+    at Object.<anonymous> (/var/server/server.js:911:1)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+
+	10:13:31.3131 
+ Error: Cannot find module '/var/server/coins/prices/prices_730.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at prices_getPrice (eval at <anonymous> (/var/server/server.js:913:1), <anonymous>:5:16)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1204:31)
+    at eval (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1184:3)
+    at Request.eval [as _callback] (eval at <anonymous> (/var/server/server.js:908:1), <anonymous>:118:10)
+    at Request.self.callback (/var/server/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:198:13)
+
+	10:19:31.3131 
+ Error: Cannot find module '/var/server/coins/prices/prices_730.json'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at prices_getPrice (eval at <anonymous> (/var/server/server.js:913:1), <anonymous>:5:16)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1204:31)
+    at eval (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1184:3)
+    at Request.eval [as _callback] (eval at <anonymous> (/var/server/server.js:908:1), <anonymous>:118:10)
+    at Request.self.callback (/var/server/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:198:13)
+
+	10:24:06.066 
+ TypeError: Cannot read property 'addQueueRequestFloat' of undefined
+    at addQueueRequestFloat (eval at <anonymous> (/var/server/server.js:908:1), <anonymous>:247:11)
+    at eval (eval at <anonymous> (/var/server/server.js:908:1), <anonymous>:163:3)
+    at Array.forEach (<anonymous>)
+    at requestItemsFloat (eval at <anonymous> (/var/server/server.js:908:1), <anonymous>:162:8)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1195:4)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1239:113)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1239:113)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1239:113)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1301:4)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1301:4)
+
+	10:24:44.4444 
+ TypeError: Cannot read property 'addQueueRequestFloat' of undefined
+    at addQueueRequestFloat (eval at <anonymous> (/var/server/server.js:908:1), <anonymous>:247:11)
+    at eval (eval at <anonymous> (/var/server/server.js:908:1), <anonymous>:163:3)
+    at Array.forEach (<anonymous>)
+    at requestItemsFloat (eval at <anonymous> (/var/server/server.js:908:1), <anonymous>:162:8)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1195:4)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1239:113)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1239:113)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1239:113)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1301:4)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1301:4)
+
+	10:30:11.1111 
+ TypeError: Cannot read property 'addQueueRequestFloat' of undefined
+    at addQueueRequestFloat (eval at <anonymous> (/var/server/server.js:908:1), <anonymous>:247:11)
+    at eval (eval at <anonymous> (/var/server/server.js:908:1), <anonymous>:163:3)
+    at Array.forEach (<anonymous>)
+    at requestItemsFloat (eval at <anonymous> (/var/server/server.js:908:1), <anonymous>:162:8)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1195:4)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1239:113)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1239:113)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1239:113)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1301:4)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1301:4)
+
+	10:30:50.5050 
+ TypeError: Cannot read property 'addQueueRequestFloat' of undefined
+    at addQueueRequestFloat (eval at <anonymous> (/var/server/server.js:908:1), <anonymous>:247:11)
+    at eval (eval at <anonymous> (/var/server/server.js:908:1), <anonymous>:163:3)
+    at Array.forEach (<anonymous>)
+    at requestItemsFloat (eval at <anonymous> (/var/server/server.js:908:1), <anonymous>:162:8)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1195:4)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1239:113)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1239:113)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1239:113)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1301:4)
+    at depositSteam_inventoryByItems (eval at <anonymous> (/var/server/server.js:909:1), <anonymous>:1301:4)
+
+	11:05:47.4747 
+ Error: There was an error sending your trade offer. We were unable to contact the game's item server. The game's item server may be down or Steam may be experiencing temporary connectivity issues. Please try again later.
+    at Object.exports.makeAnError (/var/server/node_modules/steam-tradeoffer-manager/lib/helpers.js:17:12)
+    at SteamCommunity.manager._community.httpRequestPost (/var/server/node_modules/steam-tradeoffer-manager/lib/classes/TradeOffer.js:349:12)
+    at Request._callback (/var/server/node_modules/steamcommunity/components/http.js:67:15)
+    at Request.self.callback (/var/server/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:198:13)
+    at Request.<anonymous> (/var/server/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:198:13)
+    at Gunzip.<anonymous> (/var/server/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:286:20)
+    at Gunzip.emit (events.js:203:15)
+
+	11:06:51.5151 
+ Error: There was an error sending your trade offer. We were unable to contact the game's item server. The game's item server may be down or Steam may be experiencing temporary connectivity issues. Please try again later.
+    at Object.exports.makeAnError (/var/server/node_modules/steam-tradeoffer-manager/lib/helpers.js:17:12)
+    at SteamCommunity.manager._community.httpRequestPost (/var/server/node_modules/steam-tradeoffer-manager/lib/classes/TradeOffer.js:349:12)
+    at Request._callback (/var/server/node_modules/steamcommunity/components/http.js:67:15)
+    at Request.self.callback (/var/server/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:198:13)
+    at Request.<anonymous> (/var/server/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:198:13)
+    at Gunzip.<anonymous> (/var/server/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:286:20)
+    at Gunzip.emit (events.js:203:15)
+

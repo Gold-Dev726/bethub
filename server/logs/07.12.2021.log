@@ -1,0 +1,503 @@
+[2021-12-07T18:41:28.926] [ERROR] default - Strange error
+[2021-12-07T18:41:28.930] [ERROR] default - SyntaxError: await is only valid in async function
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1007:51)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[2021-12-07T18:41:29.496] [ERROR] default - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at crashGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1006:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1006:1), <anonymous>:5:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1006:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlMessage: "Access denied for user 'root'@'localhost' (using password: YES)",
+  sqlState: '28000',
+  fatal: true
+}
+[2021-12-07T18:41:29.501] [ERROR] default - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1005:1), <anonymous>:15:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1005:1), <anonymous>:13:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1005:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlMessage: "Access denied for user 'root'@'localhost' (using password: YES)",
+  sqlState: '28000',
+  fatal: true
+}
+[2021-12-07T18:41:29.504] [ERROR] default - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1005:1), <anonymous>:38:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1005:1), <anonymous>:13:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1005:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlMessage: "Access denied for user 'root'@'localhost' (using password: YES)",
+  sqlState: '28000',
+  fatal: true
+}
+[2021-12-07T18:41:29.506] [ERROR] default - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at crashGame_checkGame (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1006:1), <anonymous>:290:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1006:1), <anonymous>:288:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1006:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlMessage: "Access denied for user 'root'@'localhost' (using password: YES)",
+  sqlState: '28000',
+  fatal: true
+}
+[2021-12-07T18:41:29.509] [ERROR] default - Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_checkRound (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1005:1), <anonymous>:230:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1005:1), <anonymous>:228:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1005:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlMessage: "Access denied for user 'root'@'localhost' (using password: YES)",
+  sqlState: '28000',
+  fatal: true
+}
+[2021-12-07T18:41:29.526] [DEBUG] default - Whriting error completed!
+[2021-12-07T18:41:29.526] [DEBUG] default - Whriting error completed!
+[2021-12-07T18:41:29.527] [DEBUG] default - Whriting error completed!
+[2021-12-07T18:41:29.528] [DEBUG] default - Whriting error completed!
+[2021-12-07T18:41:29.528] [DEBUG] default - Whriting error completed!
+[2021-12-07T18:47:46.453] [ERROR] default - Strange error
+[2021-12-07T18:47:46.456] [ERROR] default - SyntaxError: await is only valid in async function
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1007:51)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[2021-12-07T18:47:46.470] [DEBUG] default - Whriting error completed!
+[2021-12-07T18:47:48.089] [DEBUG] default - [ROULETTE] New Game. Hash: b8de0afe13c03155d5c91ffcf4bf7aedbedd555754b3d6f686e2ff87acd3ca67, Secret: 3APQO44gp0BKsCZW, Roll: 6
+[2021-12-07T18:47:48.089] [DEBUG] default - [ROULETTE] Starting
+[2021-12-07T18:47:54.098] [DEBUG] default - [CRASH] New Game. Point: 2.41x
+[2021-12-07T18:48:18.175] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1005:1), <anonymous>:15:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1005:1), <anonymous>:13:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1005:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-12-07T18:48:18.183] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1005:1), <anonymous>:38:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1005:1), <anonymous>:13:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1005:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-12-07T18:48:18.185] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_checkRound (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1005:1), <anonymous>:230:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1005:1), <anonymous>:228:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1005:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-12-07T18:48:18.188] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at crashGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1006:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1006:1), <anonymous>:5:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1006:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-12-07T18:48:18.190] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at crashGame_checkGame (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1006:1), <anonymous>:290:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1006:1), <anonymous>:288:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1006:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-12-07T18:48:18.193] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at jackpotGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1007:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1007:1), <anonymous>:5:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1007:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-12-07T18:48:18.197] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at jackpotGame_checkGames (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1007:1), <anonymous>:70:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1007:1), <anonymous>:67:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1007:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-12-07T18:48:18.200] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at coinflipGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1008:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1008:1), <anonymous>:5:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1008:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-12-07T18:48:18.203] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at diceGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1009:1), <anonymous>:9:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1009:1), <anonymous>:7:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1009:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-12-07T18:48:18.205] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at unboxGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1010:1), <anonymous>:11:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1010:1), <anonymous>:9:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1010:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-12-07T18:48:18.243] [DEBUG] default - Whriting error completed!
+[2021-12-07T18:48:18.244] [DEBUG] default - Whriting error completed!
+[2021-12-07T18:48:18.246] [DEBUG] default - Whriting error completed!
+[2021-12-07T18:48:18.246] [DEBUG] default - Whriting error completed!
+[2021-12-07T18:48:18.248] [DEBUG] default - Whriting error completed!
+[2021-12-07T18:48:18.248] [DEBUG] default - Whriting error completed!
+[2021-12-07T18:48:18.249] [DEBUG] default - Whriting error completed!
+[2021-12-07T18:48:18.250] [DEBUG] default - Whriting error completed!
+[2021-12-07T18:48:18.250] [DEBUG] default - Whriting error completed!
+[2021-12-07T18:48:18.251] [DEBUG] default - Whriting error completed!
+[2021-12-07T18:48:18.676] [DEBUG] default - [BOT] Items withdraw loaded!
+[2021-12-07T18:48:18.722] [DEBUG] default - [RAIN] Rolling
+[2021-12-07T18:48:19.683] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-12-07T18:48:19.855] [ERROR] default - Strange error
+[2021-12-07T18:48:19.856] [ERROR] default - Error: ENOENT: no such file or directory, open '/var/server/prices/prices_252490.json'
+    at Object.openSync (fs.js:476:3)
+    at Object.writeFileSync (fs.js:1467:35)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1031:1), <anonymous>:47:7)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/var/server/prices/prices_252490.json'
+}
+[2021-12-07T18:48:19.865] [DEBUG] default - Whriting error completed!
+[2021-12-07T18:48:20.046] [DEBUG] default - [COINPAYMENTS] Checking transactions
+[2021-12-07T18:48:20.046] [DEBUG] default - [COINPAYMENTS] Prices Loaded
+[2021-12-07T18:48:20.183] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-12-07T18:48:21.900] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-12-07T18:48:22.581] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-12-07T18:48:23.369] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-12-07T20:01:19.210] [DEBUG] default - [ROULETTE] New Game. Hash: b8de0afe13c03155d5c91ffcf4bf7aedbedd555754b3d6f686e2ff87acd3ca67, Secret: 3APQO44gp0BKsCZW, Roll: 6
+[2021-12-07T20:01:19.264] [DEBUG] default - [ROULETTE] Starting
+[2021-12-07T20:01:19.599] [DEBUG] default - [BOT] Items withdraw loaded!
+[2021-12-07T20:01:19.656] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-12-07T20:01:19.714] [DEBUG] default - [RAIN] Rolling
+[2021-12-07T20:01:20.662] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-12-07T20:01:21.790] [ERROR] default - Strange error
+[2021-12-07T20:01:21.791] [ERROR] default - Error: ENOENT: no such file or directory, open '/var/server/prices/prices_252490.json'
+    at Object.openSync (fs.js:476:3)
+    at Object.writeFileSync (fs.js:1467:35)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1032:1), <anonymous>:47:7)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/var/server/prices/prices_252490.json'
+}
+[2021-12-07T20:01:22.052] [DEBUG] default - Whriting error completed!
+[2021-12-07T20:01:22.149] [DEBUG] default - [COINPAYMENTS] Checking transactions
+[2021-12-07T20:01:22.149] [DEBUG] default - [COINPAYMENTS] Prices Loaded
+[2021-12-07T20:01:22.758] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-12-07T20:01:23.595] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-12-07T20:01:25.137] [DEBUG] default - [CRASH] New Game. Point: 2.41x
+[2021-12-07T20:01:30.628] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-12-07T20:01:31.727] [ERROR] default - Strange error
+[2021-12-07T20:01:31.728] [ERROR] default - Error: ENOENT: no such file or directory, open '/var/server/prices/prices_570.json'
+    at Object.openSync (fs.js:476:3)
+    at Object.writeFileSync (fs.js:1467:35)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1032:1), <anonymous>:47:7)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/var/server/prices/prices_570.json'
+}
+[2021-12-07T20:01:31.741] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-12-07T20:01:31.743] [DEBUG] default - Whriting error completed!
+[2021-12-07T20:01:32.193] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-12-07T20:01:32.573] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-12-07T20:01:33.335] [ERROR] default - Strange error
+[2021-12-07T20:01:33.335] [ERROR] default - Error: ENOENT: no such file or directory, open '/var/server/prices/prices_730.json'
+    at Object.openSync (fs.js:476:3)
+    at Object.writeFileSync (fs.js:1467:35)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1032:1), <anonymous>:47:7)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/var/server/prices/prices_730.json'
+}
+[2021-12-07T20:01:33.339] [DEBUG] default - Whriting error completed!

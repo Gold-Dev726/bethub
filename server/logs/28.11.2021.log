@@ -1,0 +1,798 @@
+[2021-11-28T20:17:03.699] [ERROR] default - Strange error
+[2021-11-28T20:17:03.730] [ERROR] default - ReferenceError: connection is not defined
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:117:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[2021-11-28T20:19:08.954] [INFO] default - Checking winners
+[2021-11-28T20:19:08.959] [INFO] default - Pay tickets
+[2021-11-28T20:19:21.057] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:961:1), <anonymous>:15:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:961:1), <anonymous>:13:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:961:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-11-28T20:19:21.061] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:961:1), <anonymous>:38:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:961:1), <anonymous>:13:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:961:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-11-28T20:19:21.065] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_checkRound (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:961:1), <anonymous>:229:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:961:1), <anonymous>:227:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:961:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-11-28T20:19:21.067] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at crashGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:962:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:962:1), <anonymous>:5:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:962:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-11-28T20:19:21.070] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at crashGame_checkGame (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:962:1), <anonymous>:289:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:962:1), <anonymous>:287:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:962:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-11-28T20:19:21.072] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at jackpotGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:963:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:963:1), <anonymous>:5:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:963:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-11-28T20:19:21.074] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at jackpotGame_checkGames (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:963:1), <anonymous>:70:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:963:1), <anonymous>:67:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:963:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-11-28T20:19:21.079] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at coinflipGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:964:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:964:1), <anonymous>:5:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:964:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-11-28T20:19:21.081] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at diceGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:965:1), <anonymous>:9:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:965:1), <anonymous>:7:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:965:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-11-28T20:19:21.129] [DEBUG] default - Whriting error completed!
+[2021-11-28T20:19:21.130] [DEBUG] default - Whriting error completed!
+[2021-11-28T20:19:21.132] [DEBUG] default - Whriting error completed!
+[2021-11-28T20:19:21.132] [DEBUG] default - Whriting error completed!
+[2021-11-28T20:19:21.133] [DEBUG] default - Whriting error completed!
+[2021-11-28T20:19:21.134] [DEBUG] default - Whriting error completed!
+[2021-11-28T20:19:21.135] [DEBUG] default - Whriting error completed!
+[2021-11-28T20:19:21.136] [DEBUG] default - Whriting error completed!
+[2021-11-28T20:19:21.137] [DEBUG] default - Whriting error completed!
+[2021-11-28T20:19:21.148] [INFO] default - No unprocessed tickets
+[2021-11-28T20:19:21.154] [DEBUG] default - [BOT] Items withdraw loaded!
+[2021-11-28T20:19:21.156] [DEBUG] default - [RAIN] Rolling
+[2021-11-28T20:19:21.750] [INFO] default - match 470700 has ended, winner: won / lost
+[2021-11-28T20:19:21.760] [INFO] default - match 476042 has ended, winner: won / lost
+[2021-11-28T20:19:21.765] [INFO] default - match 476040 has ended, winner: lost / won
+[2021-11-28T20:19:21.770] [INFO] default - match 476080 has ended, winner: won / lost
+[2021-11-28T20:19:21.779] [INFO] default - match 471188 has ended, winner: lost / won
+[2021-11-28T20:19:22.324] [INFO] default - match 471355 has ended, winner: won / lost
+[2021-11-28T20:19:22.328] [INFO] default - match 476672 has ended, winner: lost / won
+[2021-11-28T20:19:22.521] [INFO] default - match 465247 has ended, winner: won / lost
+[2021-11-28T20:19:22.523] [INFO] default - match 477462 has ended, winner: won / lost
+[2021-11-28T20:19:22.526] [INFO] default - match 475711 has ended, winner: won / lost
+[2021-11-28T20:19:22.527] [INFO] default - match 471256 has ended, winner: lost / won
+[2021-11-28T20:19:22.536] [INFO] default - match 476045 has ended, winner: lost / won
+[2021-11-28T20:19:22.654] [INFO] default - match 477349 has ended, winner: won / lost
+[2021-11-28T20:19:22.756] [INFO] default - match 477676 has ended, winner: lost / won
+[2021-11-28T20:19:22.773] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:21:14.147] [INFO] default - Checking winners
+[2021-11-28T20:21:14.152] [INFO] default - Pay tickets
+[2021-11-28T20:21:16.383] [DEBUG] default - [BOT] Items withdraw loaded!
+[2021-11-28T20:21:16.386] [DEBUG] default - [ROULETTE] New Game. Hash: e73a482c2db7705db903fbd6055b201691e360d5f0b913c3fcc7438735880d89, Secret: k9UsiWxHbvqD1qvG, Roll: 5
+[2021-11-28T20:21:16.386] [DEBUG] default - [ROULETTE] Starting
+[2021-11-28T20:21:16.389] [DEBUG] default - [RAIN] Rolling
+[2021-11-28T20:21:16.390] [INFO] default - No unprocessed tickets
+[2021-11-28T20:21:16.603] [DEBUG] default - [CRASH] Starting
+[2021-11-28T20:21:16.741] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:21:16.751] [INFO] default - match 475407 has ended, winner: lost / won
+[2021-11-28T20:21:16.770] [INFO] default - match 476042 has ended, winner: won / lost
+[2021-11-28T20:21:16.786] [INFO] default - match 471355 has ended, winner: won / lost
+[2021-11-28T20:21:16.790] [INFO] default - match 477462 has ended, winner: won / lost
+[2021-11-28T20:21:16.808] [INFO] default - match 476946 has ended, winner: lost / won
+[2021-11-28T20:21:16.810] [INFO] default - match 471257 has ended, winner: won / lost
+[2021-11-28T20:21:17.002] [INFO] default - match 477676 has ended, winner: lost / won
+[2021-11-28T20:21:17.009] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:21:17.033] [INFO] default - match 476257 has ended, winner: won / lost
+[2021-11-28T20:21:17.267] [INFO] default - match 471256 has ended, winner: lost / won
+[2021-11-28T20:21:17.336] [INFO] default - match 476045 has ended, winner: lost / won
+[2021-11-28T20:21:17.452] [INFO] default - match 476089 has ended, winner: won / lost
+[2021-11-28T20:21:17.558] [INFO] default - match 471188 has ended, winner: lost / won
+[2021-11-28T20:21:17.662] [INFO] default - match 465247 has ended, winner: won / lost
+[2021-11-28T20:21:17.786] [INFO] default - match 476047 has ended, winner: won / lost
+[2021-11-28T20:21:17.854] [INFO] default - match 476081 has ended, winner: lost / lost
+[2021-11-28T20:21:17.932] [DEBUG] default - [COINPAYMENTS] Checking transactions
+[2021-11-28T20:21:17.933] [DEBUG] default - [COINPAYMENTS] Prices Loaded
+[2021-11-28T20:21:17.951] [INFO] default - match 475740 has ended, winner: won / lost
+[2021-11-28T20:21:18.097] [INFO] default - match 476041 has ended, winner: lost / won
+[2021-11-28T20:21:18.227] [INFO] default - match 476457 has ended, winner:  / 
+[2021-11-28T20:21:18.271] [INFO] default - match 476074 has ended, winner: won / lost
+[2021-11-28T20:21:18.432] [INFO] default - match 476043 has ended, winner: lost / won
+[2021-11-28T20:21:18.590] [INFO] default - match 476048 has ended, winner: lost / won
+[2021-11-28T20:21:18.713] [INFO] default - match 472161 has ended, winner: won / lost
+[2021-11-28T20:21:18.833] [INFO] default - match 476040 has ended, winner: lost / won
+[2021-11-28T20:21:22.623] [DEBUG] default - [CRASH] New Game. Point: 1.28x
+[2021-11-28T20:21:23.529] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:21:23.799] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:21:25.109] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:21:25.380] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:21:25.769] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:21:26.117] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:21:26.752] [DEBUG] default - [CRASH] Creshed at 1.28x
+[2021-11-28T20:21:31.760] [DEBUG] default - [CRASH] Starting
+[2021-11-28T20:21:35.329] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:21:35.604] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:21:36.959] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:21:37.235] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:21:37.536] [DEBUG] default - [ROULETTE] Rolling
+[2021-11-28T20:21:37.766] [DEBUG] default - [CRASH] New Game. Point: 1.80x
+[2021-11-28T20:21:39.559] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:21:39.835] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:21:41.331] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:21:41.677] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:21:43.140] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:21:43.446] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:21:44.899] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:21:45.165] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:21:45.548] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:21:45.895] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:21:47.568] [DEBUG] default - [CRASH] Creshed at 1.80x
+[2021-11-28T20:21:47.581] [DEBUG] default - [ROULETTE] Ended
+[2021-11-28T20:21:47.620] [DEBUG] default - [ROULETTE] New Game. Hash: f986cd7d6a506069e5092b3a99f19d58136a703ed2f8d99901e27a6511f90fe7, Secret: 0vlBcvEcYOFCT6BM, Roll: 10
+[2021-11-28T20:21:47.621] [DEBUG] default - [ROULETTE] Starting
+[2021-11-28T20:21:52.582] [DEBUG] default - [CRASH] Starting
+[2021-11-28T20:21:55.268] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:21:55.575] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:21:58.586] [DEBUG] default - [CRASH] New Game. Point: 1.58x
+[2021-11-28T20:22:05.099] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:05.378] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:06.220] [DEBUG] default - [CRASH] Creshed at 1.58x
+[2021-11-28T20:22:07.658] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:07.987] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:08.739] [DEBUG] default - [ROULETTE] Rolling
+[2021-11-28T20:22:09.141] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:09.418] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:10.768] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:11.069] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:11.230] [DEBUG] default - [CRASH] Starting
+[2021-11-28T20:22:13.388] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:13.709] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:14.166] [INFO] default - Checking winners
+[2021-11-28T20:22:14.167] [INFO] default - Pay tickets
+[2021-11-28T20:22:14.187] [INFO] default - No unprocessed tickets
+[2021-11-28T20:22:14.603] [INFO] default - match 476946 has ended, winner: lost / won
+[2021-11-28T20:22:14.620] [INFO] default - match 476080 has ended, winner: won / lost
+[2021-11-28T20:22:14.626] [INFO] default - match 475696 has ended, winner: won / lost
+[2021-11-28T20:22:14.630] [INFO] default - match 476044 has ended, winner: won / lost
+[2021-11-28T20:22:14.678] [INFO] default - match 476040 has ended, winner: lost / won
+[2021-11-28T20:22:14.691] [INFO] default - match 476042 has ended, winner: won / lost
+[2021-11-28T20:22:14.827] [INFO] default - match 475740 has ended, winner: won / lost
+[2021-11-28T20:22:14.886] [INFO] default - match 477676 has ended, winner: lost / won
+[2021-11-28T20:22:15.100] [INFO] default - match 468712 has ended, winner: won / lost
+[2021-11-28T20:22:15.177] [INFO] default - match 476257 has ended, winner: won / lost
+[2021-11-28T20:22:15.319] [INFO] default - match 475711 has ended, winner: won / lost
+[2021-11-28T20:22:15.546] [INFO] default - match 465247 has ended, winner: won / lost
+[2021-11-28T20:22:15.613] [INFO] default - match 476457 has ended, winner:  / 
+[2021-11-28T20:22:15.723] [INFO] default - match 471256 has ended, winner: lost / won
+[2021-11-28T20:22:16.208] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:16.513] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:16.969] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:17.248] [DEBUG] default - [CRASH] New Game. Point: 16.32x
+[2021-11-28T20:22:17.346] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:17.942] [DEBUG] default - [COINPAYMENTS] Checking transactions
+[2021-11-28T20:22:18.773] [DEBUG] default - [ROULETTE] Ended
+[2021-11-28T20:22:18.851] [DEBUG] default - [ROULETTE] New Game. Hash: 5ef3f6086fa2f8e9d12034c2611a9e113e0e9649cf330e0dff3c6d264af3e7c1, Secret: 975vvcyh0JvazxXJ, Roll: 9
+[2021-11-28T20:22:18.851] [DEBUG] default - [ROULETTE] Starting
+[2021-11-28T20:22:21.744] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:22.098] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:26.539] [DEBUG] default - [RAIN] 0 users have sent a total of 1.00 coins
+[2021-11-28T20:22:27.458] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:27.823] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:28.998] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:29.305] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:33.617] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:34.062] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:36.576] [DEBUG] default - [RAIN] Creating a new one. Rolling after 1786 seconds
+[2021-11-28T20:22:36.627] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:36.894] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:37.327] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:37.605] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:37.909] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:38.188] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:39.549] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:39.860] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:39.963] [DEBUG] default - [ROULETTE] Rolling
+[2021-11-28T20:22:40.099] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:40.413] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:40.898] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:41.145] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:42.407] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:42.704] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:43.187] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:43.486] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:43.867] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:44.184] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:44.639] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:45.057] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:49.537] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:49.808] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:50.000] [DEBUG] default - [ROULETTE] Ended
+[2021-11-28T20:22:50.023] [DEBUG] default - [ROULETTE] New Game. Hash: 74bc51a78aec10db8704e5fa8714097173e17673f6ba944557be1ab91694546e, Secret: L48vTa119rEErLk8, Roll: 6
+[2021-11-28T20:22:50.024] [DEBUG] default - [ROULETTE] Starting
+[2021-11-28T20:22:54.231] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:54.627] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:55.137] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:55.390] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:22:57.867] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:22:58.165] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:03.793] [DEBUG] default - [CRASH] Creshed at 16.32x
+[2021-11-28T20:23:04.527] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:04.897] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:08.793] [DEBUG] default - [CRASH] Starting
+[2021-11-28T20:23:11.157] [DEBUG] default - [ROULETTE] Rolling
+[2021-11-28T20:23:11.277] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:11.573] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:14.168] [INFO] default - Checking winners
+[2021-11-28T20:23:14.169] [INFO] default - Pay tickets
+[2021-11-28T20:23:14.172] [INFO] default - No unprocessed tickets
+[2021-11-28T20:23:14.483] [INFO] default - match 476041 has ended, winner: lost / won
+[2021-11-28T20:23:14.799] [DEBUG] default - [CRASH] New Game. Point: 3.48x
+[2021-11-28T20:23:14.919] [INFO] default - match 477676 has ended, winner: lost / won
+[2021-11-28T20:23:15.111] [INFO] default - match 476946 has ended, winner: lost / won
+[2021-11-28T20:23:15.313] [INFO] default - match 476048 has ended, winner: lost / won
+[2021-11-28T20:23:15.502] [INFO] default - match 468712 has ended, winner: won / lost
+[2021-11-28T20:23:15.766] [INFO] default - match 476042 has ended, winner: won / lost
+[2021-11-28T20:23:16.138] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:16.356] [INFO] default - match 476043 has ended, winner: lost / won
+[2021-11-28T20:23:16.410] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:16.532] [INFO] default - match 476040 has ended, winner: lost / won
+[2021-11-28T20:23:16.717] [INFO] default - match 476074 has ended, winner: won / lost
+[2021-11-28T20:23:17.101] [INFO] default - match 476089 has ended, winner: won / lost
+[2021-11-28T20:23:17.527] [INFO] default - match 475740 has ended, winner: won / lost
+[2021-11-28T20:23:17.941] [INFO] default - match 465247 has ended, winner: won / lost
+[2021-11-28T20:23:17.942] [DEBUG] default - [COINPAYMENTS] Checking transactions
+[2021-11-28T20:23:18.306] [INFO] default - match 475407 has ended, winner: lost / won
+[2021-11-28T20:23:18.509] [INFO] default - match 471257 has ended, winner: won / lost
+[2021-11-28T20:23:18.980] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:19.275] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:21.262] [DEBUG] default - [ROULETTE] Ended
+[2021-11-28T20:23:21.296] [DEBUG] default - [ROULETTE] New Game. Hash: 12b15fa7625f0ff9d085d71de5aa5047daeb34069871ed91b80e41b98914f3c8, Secret: C3dgf3eWaGYXZh42, Roll: 8
+[2021-11-28T20:23:21.296] [DEBUG] default - [ROULETTE] Starting
+[2021-11-28T20:23:22.576] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:23.026] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:27.446] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:27.773] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:30.248] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:30.506] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:30.826] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:31.172] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:31.646] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:31.974] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:32.357] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:32.736] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:35.136] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:35.491] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:35.587] [DEBUG] default - [CRASH] Creshed at 3.48x
+[2021-11-28T20:23:35.946] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:36.277] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:39.951] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:40.240] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:40.593] [DEBUG] default - [CRASH] Starting
+[2021-11-28T20:23:42.457] [DEBUG] default - [ROULETTE] Rolling
+[2021-11-28T20:23:42.756] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:43.038] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:46.438] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:46.597] [DEBUG] default - [CRASH] New Game. Point: 5.27x
+[2021-11-28T20:23:46.785] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:49.135] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:49.434] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:50.715] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:50.973] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:52.503] [DEBUG] default - [ROULETTE] Ended
+[2021-11-28T20:23:52.531] [DEBUG] default - [ROULETTE] New Game. Hash: 9209c67eab14cae7c76a4210a4b82121930d3ead2fccaa3309059a6b43e829b5, Secret: cvgQBK7ZOOyNbi45, Roll: 12
+[2021-11-28T20:23:52.531] [DEBUG] default - [ROULETTE] Starting
+[2021-11-28T20:23:55.291] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:55.610] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:56.935] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:57.236] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:23:57.505] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:23:57.787] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:02.156] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:02.447] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:02.735] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:03.092] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:03.415] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:03.733] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:09.125] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:09.456] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:10.785] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:11.065] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:11.345] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:11.664] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:13.629] [DEBUG] default - [ROULETTE] Rolling
+[2021-11-28T20:24:14.077] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:14.170] [INFO] default - Checking winners
+[2021-11-28T20:24:14.171] [INFO] default - Pay tickets
+[2021-11-28T20:24:14.175] [INFO] default - No unprocessed tickets
+[2021-11-28T20:24:14.314] [DEBUG] default - [CRASH] Creshed at 5.27x
+[2021-11-28T20:24:14.390] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:14.636] [INFO] default - match 477462 has ended, winner: won / lost
+[2021-11-28T20:24:14.642] [INFO] default - match 476045 has ended, winner: lost / won
+[2021-11-28T20:24:14.644] [INFO] default - match 475711 has ended, winner: won / lost
+[2021-11-28T20:24:14.647] [INFO] default - match 471257 has ended, winner: won / lost
+[2021-11-28T20:24:14.650] [INFO] default - match 476257 has ended, winner: won / lost
+[2021-11-28T20:24:14.653] [INFO] default - match 475407 has ended, winner: lost / won
+[2021-11-28T20:24:14.654] [INFO] default - match 476457 has ended, winner:  / 
+[2021-11-28T20:24:14.785] [INFO] default - match 476080 has ended, winner: won / lost
+[2021-11-28T20:24:14.812] [INFO] default - match 476041 has ended, winner: lost / won
+[2021-11-28T20:24:14.901] [INFO] default - match 471355 has ended, winner: won / lost
+[2021-11-28T20:24:14.998] [INFO] default - match 476946 has ended, winner: lost / won
+[2021-11-28T20:24:15.023] [INFO] default - match 469108 has ended, winner: lost / won
+[2021-11-28T20:24:17.951] [DEBUG] default - [COINPAYMENTS] Checking transactions
+[2021-11-28T20:24:19.322] [DEBUG] default - [CRASH] Starting
+[2021-11-28T20:24:20.039] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:20.292] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:22.595] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:22.876] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:23.376] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:23.619] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:23.666] [DEBUG] default - [ROULETTE] Ended
+[2021-11-28T20:24:23.700] [DEBUG] default - [ROULETTE] New Game. Hash: d1586b6d5786c20c60ce4a5e78a987026c83152ecf1b8d64dc17c9acb44430d2, Secret: kph4HMiCyOMSdEUg, Roll: 0
+[2021-11-28T20:24:23.701] [DEBUG] default - [ROULETTE] Starting
+[2021-11-28T20:24:25.332] [DEBUG] default - [CRASH] New Game. Point: 5.36x
+[2021-11-28T20:24:27.036] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:27.356] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:29.676] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:29.974] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:31.175] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:31.407] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:32.765] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:33.050] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:38.425] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:38.744] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:41.034] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:41.314] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:42.745] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:43.095] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:44.716] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:44.836] [DEBUG] default - [ROULETTE] Rolling
+[2021-11-28T20:24:45.004] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:45.445] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:45.744] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:47.064] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:47.410] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:47.705] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:47.968] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:49.134] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:49.380] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:52.684] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:52.970] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:53.325] [DEBUG] default - [CRASH] Creshed at 5.36x
+[2021-11-28T20:24:53.474] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:53.781] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:54.157] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:24:54.472] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:24:54.890] [DEBUG] default - [ROULETTE] Ended
+[2021-11-28T20:24:54.972] [DEBUG] default - [ROULETTE] New Game. Hash: 2290ccdb76c7672f645c184e5b563fc809716c1c9a4f589973d3f207dc0bae24, Secret: FAv2cRiIN9ILE20v, Roll: 1
+[2021-11-28T20:24:54.973] [DEBUG] default - [ROULETTE] Starting
+[2021-11-28T20:24:58.060] [INFO] default - Checking winners
+[2021-11-28T20:24:58.064] [INFO] default - Pay tickets
+[2021-11-28T20:25:00.145] [DEBUG] default - [ROULETTE] New Game. Hash: 2290ccdb76c7672f645c184e5b563fc809716c1c9a4f589973d3f207dc0bae24, Secret: FAv2cRiIN9ILE20v, Roll: 1
+[2021-11-28T20:25:00.146] [DEBUG] default - [ROULETTE] Starting
+[2021-11-28T20:25:00.154] [DEBUG] default - [CRASH] Starting
+[2021-11-28T20:25:00.211] [INFO] default - No unprocessed tickets
+[2021-11-28T20:25:00.259] [DEBUG] default - [BOT] Items withdraw loaded!
+[2021-11-28T20:25:00.269] [DEBUG] default - [RAIN] Loaded the last rain. Rolling after 1642 seconds
+[2021-11-28T20:25:00.589] [INFO] default - match 475087 has ended, winner: lost / won
+[2021-11-28T20:25:00.590] [INFO] default - match 472161 has ended, winner: won / lost
+[2021-11-28T20:25:00.599] [INFO] default - match 476041 has ended, winner: lost / won
+[2021-11-28T20:25:00.740] [INFO] default - match 476056 has ended, winner: won / lost
+[2021-11-28T20:25:00.741] [INFO] default - match 476257 has ended, winner: won / lost
+[2021-11-28T20:25:00.792] [INFO] default - match 476044 has ended, winner: won / lost
+[2021-11-28T20:25:00.899] [INFO] default - match 475681 has ended, winner: won / lost
+[2021-11-28T20:25:00.994] [INFO] default - match 471188 has ended, winner: lost / won
+[2021-11-28T20:25:01.203] [INFO] default - match 475408 has ended, winner: won / lost
+[2021-11-28T20:25:01.427] [INFO] default - match 476043 has ended, winner: lost / won
+[2021-11-28T20:25:01.474] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:25:01.511] [INFO] default - match 476047 has ended, winner: won / lost
+[2021-11-28T20:25:01.628] [DEBUG] default - [COINPAYMENTS] Checking transactions
+[2021-11-28T20:25:01.629] [DEBUG] default - [COINPAYMENTS] Prices Loaded
+[2021-11-28T20:25:01.738] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:25:01.740] [INFO] default - match 476946 has ended, winner: lost / won
+[2021-11-28T20:25:01.919] [INFO] default - match 470700 has ended, winner: won / lost
+[2021-11-28T20:25:02.028] [INFO] default - match 475696 has ended, winner: won / lost
+[2021-11-28T20:25:02.214] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:25:02.264] [INFO] default - match 471355 has ended, winner: won / lost
+[2021-11-28T20:25:02.379] [INFO] default - match 476089 has ended, winner: won / lost
+[2021-11-28T20:25:02.475] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:25:02.504] [INFO] default - match 465247 has ended, winner: won / lost
+[2021-11-28T20:25:02.655] [INFO] default - match 476040 has ended, winner: lost / won
+[2021-11-28T20:26:07.147] [INFO] default - Checking winners
+[2021-11-28T20:26:07.152] [INFO] default - Pay tickets
+[2021-11-28T20:26:09.391] [DEBUG] default - [ROULETTE] New Game. Hash: 2290ccdb76c7672f645c184e5b563fc809716c1c9a4f589973d3f207dc0bae24, Secret: FAv2cRiIN9ILE20v, Roll: 1
+[2021-11-28T20:26:09.392] [DEBUG] default - [ROULETTE] Starting
+[2021-11-28T20:26:09.417] [INFO] default - No unprocessed tickets
+[2021-11-28T20:26:09.475] [DEBUG] default - [BOT] Items withdraw loaded!
+[2021-11-28T20:26:09.478] [DEBUG] default - [RAIN] Loaded the last rain. Rolling after 1573 seconds
+[2021-11-28T20:26:09.876] [INFO] default - match 475681 has ended, winner: won / lost
+[2021-11-28T20:26:09.880] [INFO] default - match 468712 has ended, winner: won / lost
+[2021-11-28T20:26:09.881] [INFO] default - match 476946 has ended, winner: lost / won
+[2021-11-28T20:26:09.897] [INFO] default - match 475711 has ended, winner: won / lost
+[2021-11-28T20:26:09.899] [INFO] default - match 475407 has ended, winner: lost / won
+[2021-11-28T20:26:09.915] [INFO] default - match 477449 has ended, winner: won / lost
+[2021-11-28T20:26:09.921] [INFO] default - match 476089 has ended, winner: won / lost
+[2021-11-28T20:26:09.925] [INFO] default - match 476672 has ended, winner: lost / won
+[2021-11-28T20:26:09.931] [INFO] default - match 476457 has ended, winner:  / 
+[2021-11-28T20:26:10.034] [INFO] default - match 476042 has ended, winner: won / lost
+[2021-11-28T20:26:10.039] [INFO] default - match 477676 has ended, winner: lost / won
+[2021-11-28T20:26:10.041] [INFO] default - match 471188 has ended, winner: lost / won
+[2021-11-28T20:26:10.043] [INFO] default - match 477462 has ended, winner: won / lost
+[2021-11-28T20:26:10.065] [INFO] default - match 475696 has ended, winner: won / lost
+[2021-11-28T20:26:10.292] [INFO] default - match 465247 has ended, winner: won / lost
+[2021-11-28T20:26:10.385] [INFO] default - match 476048 has ended, winner: lost / won
+[2021-11-28T20:26:10.545] [INFO] default - match 476040 has ended, winner: lost / won
+[2021-11-28T20:26:10.560] [INFO] default - match 476044 has ended, winner: won / lost
+[2021-11-28T20:26:10.827] [INFO] default - match 476041 has ended, winner: lost / won
+[2021-11-28T20:26:10.874] [INFO] default - match 470700 has ended, winner: won / lost
+[2021-11-28T20:26:10.995] [INFO] default - match 475741 has ended, winner: won / lost
+[2021-11-28T20:26:11.135] [INFO] default - match 475087 has ended, winner: lost / won
+[2021-11-28T20:26:11.169] [INFO] default - match 469108 has ended, winner: lost / won
+[2021-11-28T20:26:11.234] [DEBUG] default - [COINPAYMENTS] Checking transactions
+[2021-11-28T20:26:11.234] [DEBUG] default - [COINPAYMENTS] Prices Loaded
+[2021-11-28T20:26:11.273] [INFO] default - match 475740 has ended, winner: won / lost
+[2021-11-28T20:26:12.535] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:26:12.857] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:26:14.122] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:26:14.393] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:26:15.401] [DEBUG] default - [CRASH] New Game. Point: 1.13x
+[2021-11-28T20:26:47.418] [INFO] default - Checking winners
+[2021-11-28T20:26:47.423] [INFO] default - Pay tickets
+[2021-11-28T20:26:49.530] [DEBUG] default - [ROULETTE] New Game. Hash: 2290ccdb76c7672f645c184e5b563fc809716c1c9a4f589973d3f207dc0bae24, Secret: FAv2cRiIN9ILE20v, Roll: 1
+[2021-11-28T20:26:49.531] [DEBUG] default - [ROULETTE] Starting
+[2021-11-28T20:26:49.541] [INFO] default - No unprocessed tickets
+[2021-11-28T20:26:49.601] [DEBUG] default - [BOT] Items withdraw loaded!
+[2021-11-28T20:26:49.604] [DEBUG] default - [RAIN] Loaded the last rain. Rolling after 1533 seconds
+[2021-11-28T20:26:49.977] [INFO] default - match 475741 has ended, winner: won / lost
+[2021-11-28T20:26:49.985] [INFO] default - match 471257 has ended, winner: won / lost
+[2021-11-28T20:26:49.987] [INFO] default - match 475087 has ended, winner: lost / won
+[2021-11-28T20:26:49.989] [INFO] default - match 471355 has ended, winner: won / lost
+[2021-11-28T20:26:49.994] [INFO] default - match 475711 has ended, winner: won / lost
+[2021-11-28T20:26:50.060] [INFO] default - match 475408 has ended, winner: won / lost
+[2021-11-28T20:26:50.647] [INFO] default - match 475407 has ended, winner: lost / won
+[2021-11-28T20:26:50.649] [INFO] default - match 471256 has ended, winner: lost / won
+[2021-11-28T20:26:50.652] [INFO] default - match 476081 has ended, winner: lost / lost
+[2021-11-28T20:26:50.693] [INFO] default - match 477449 has ended, winner: won / lost
+[2021-11-28T20:26:50.784] [INFO] default - match 475740 has ended, winner: won / lost
+[2021-11-28T20:26:50.861] [INFO] default - match 476040 has ended, winner: lost / won
+[2021-11-28T20:26:50.881] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:26:51.177] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:26:51.191] [INFO] default - match 476080 has ended, winner: won / lost
+[2021-11-28T20:26:51.230] [INFO] default - match 476047 has ended, winner: won / lost
+[2021-11-28T20:26:51.314] [INFO] default - match 476257 has ended, winner: won / lost
+[2021-11-28T20:26:51.372] [INFO] default - match 477462 has ended, winner: won / lost
+[2021-11-28T20:26:51.491] [INFO] default - match 471188 has ended, winner: lost / won
+[2021-11-28T20:26:51.541] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:26:51.614] [INFO] default - match 476056 has ended, winner: won / lost
+[2021-11-28T20:26:51.671] [INFO] default - match 476048 has ended, winner: lost / won
+[2021-11-28T20:26:52.012] [INFO] default - match 477349 has ended, winner: won / lost
+[2021-11-28T20:26:52.017] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:26:52.258] [DEBUG] default - [COINPAYMENTS] Checking transactions
+[2021-11-28T20:26:52.259] [DEBUG] default - [COINPAYMENTS] Prices Loaded
+[2021-11-28T20:46:29.890] [INFO] default - Checking winners
+[2021-11-28T20:46:29.895] [INFO] default - Pay tickets
+[2021-11-28T20:46:32.140] [DEBUG] default - [ROULETTE] New Game. Hash: 2290ccdb76c7672f645c184e5b563fc809716c1c9a4f589973d3f207dc0bae24, Secret: FAv2cRiIN9ILE20v, Roll: 1
+[2021-11-28T20:46:32.141] [DEBUG] default - [ROULETTE] Starting
+[2021-11-28T20:46:32.161] [INFO] default - No unprocessed tickets
+[2021-11-28T20:46:32.212] [DEBUG] default - [BOT] Items withdraw loaded!
+[2021-11-28T20:46:32.214] [DEBUG] default - [RAIN] Loaded the last rain. Rolling after 350 seconds
+[2021-11-28T20:46:32.604] [INFO] default - match 470700 has ended, winner: won / lost
+[2021-11-28T20:46:32.825] [INFO] default - match 476044 has ended, winner: won / lost
+[2021-11-28T20:46:33.026] [INFO] default - match 476045 has ended, winner: lost / won
+[2021-11-28T20:46:33.204] [INFO] default - match 475741 has ended, winner: won / lost
+[2021-11-28T20:46:33.391] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:46:33.566] [DEBUG] default - [COINPAYMENTS] Checking transactions
+[2021-11-28T20:46:33.567] [DEBUG] default - [COINPAYMENTS] Prices Loaded
+[2021-11-28T20:46:33.589] [INFO] default - match 476946 has ended, winner: lost / won
+[2021-11-28T20:46:33.670] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:46:34.007] [INFO] default - match 476041 has ended, winner: lost / won
+[2021-11-28T20:46:34.247] [INFO] default - match 476089 has ended, winner: won / lost
+[2021-11-28T20:46:34.427] [INFO] default - match 477449 has ended, winner: won / lost
+[2021-11-28T20:46:34.810] [INFO] default - match 468712 has ended, winner: won / lost
+[2021-11-28T20:46:35.006] [INFO] default - match 475696 has ended, winner: won / lost
+[2021-11-28T20:46:35.197] [INFO] default - match 476048 has ended, winner: lost / won
+[2021-11-28T20:46:35.648] [INFO] default - match 476074 has ended, winner: won / lost
+[2021-11-28T20:46:35.838] [INFO] default - match 471257 has ended, winner: won / lost
+[2021-11-28T20:46:36.048] [INFO] default - match 476043 has ended, winner: lost / won
+[2021-11-28T20:46:38.155] [DEBUG] default - [CRASH] New Game. Point: 1.13x
+[2021-11-28T20:46:38.171] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:46:38.453] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:46:40.350] [DEBUG] default - [CRASH] Creshed at 1.13x
+[2021-11-28T20:46:41.961] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:46:42.261] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:46:42.750] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:46:43.027] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:46:43.411] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:46:43.682] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:46:45.363] [DEBUG] default - [CRASH] Starting
+[2021-11-28T20:46:46.172] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:46:46.449] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:46:47.870] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:46:48.251] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:46:49.660] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:46:50.010] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:46:51.376] [DEBUG] default - [CRASH] New Game. Point: 1.40x
+[2021-11-28T20:46:51.401] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:46:51.722] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:46:53.110] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:46:53.269] [DEBUG] default - [ROULETTE] Rolling
+[2021-11-28T20:46:53.567] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:46:53.715] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:46:53.972] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:46:55.460] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:46:55.769] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:46:56.172] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:46:56.492] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:46:56.960] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:46:56.999] [DEBUG] default - [CRASH] Creshed at 1.40x
+[2021-11-28T20:46:57.242] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:46:58.610] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:46:58.933] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:46:59.370] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:46:59.694] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:02.009] [DEBUG] default - [CRASH] Starting
+[2021-11-28T20:47:02.111] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:02.456] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:02.970] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:03.232] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:03.328] [DEBUG] default - [ROULETTE] Ended
+[2021-11-28T20:47:03.360] [DEBUG] default - [ROULETTE] New Game. Hash: b8de0afe13c03155d5c91ffcf4bf7aedbedd555754b3d6f686e2ff87acd3ca67, Secret: 3APQO44gp0BKsCZW, Roll: 6
+[2021-11-28T20:47:03.360] [DEBUG] default - [ROULETTE] Starting
+[2021-11-28T20:47:08.022] [DEBUG] default - [CRASH] New Game. Point: 1.21x
+[2021-11-28T20:47:10.670] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:11.010] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:11.210] [DEBUG] default - [CRASH] Creshed at 1.21x
+[2021-11-28T20:47:11.420] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:11.733] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:15.281] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:15.688] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:16.213] [DEBUG] default - [CRASH] Starting
+[2021-11-28T20:47:17.340] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:17.630] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:18.250] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:18.540] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:21.040] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:21.270] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:21.762] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:22.039] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:22.226] [DEBUG] default - [CRASH] New Game. Point: 1.52x
+[2021-11-28T20:47:23.459] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:23.777] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:24.505] [DEBUG] default - [ROULETTE] Rolling
+[2021-11-28T20:47:26.179] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:26.514] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:26.869] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:27.210] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:29.209] [DEBUG] default - [CRASH] Creshed at 1.52x
+[2021-11-28T20:47:29.913] [INFO] default - Checking winners
+[2021-11-28T20:47:29.914] [INFO] default - Pay tickets
+[2021-11-28T20:47:29.919] [INFO] default - No unprocessed tickets
+[2021-11-28T20:47:30.302] [INFO] default - match 470700 has ended, winner: won / lost
+[2021-11-28T20:47:30.304] [INFO] default - match 476080 has ended, winner: won / lost
+[2021-11-28T20:47:30.691] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:30.718] [INFO] default - match 475408 has ended, winner: won / lost
+[2021-11-28T20:47:30.932] [INFO] default - match 476089 has ended, winner: won / lost
+[2021-11-28T20:47:30.944] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:31.122] [INFO] default - match 477462 has ended, winner: won / lost
+[2021-11-28T20:47:31.499] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:31.522] [INFO] default - match 477349 has ended, winner: won / lost
+[2021-11-28T20:47:34.458] [INFO] default - Checking winners
+[2021-11-28T20:47:34.462] [INFO] default - Pay tickets
+[2021-11-28T20:47:36.530] [DEBUG] default - [ROULETTE] New Game. Hash: b8de0afe13c03155d5c91ffcf4bf7aedbedd555754b3d6f686e2ff87acd3ca67, Secret: 3APQO44gp0BKsCZW, Roll: 6
+[2021-11-28T20:47:36.531] [DEBUG] default - [ROULETTE] Starting
+[2021-11-28T20:47:36.540] [DEBUG] default - [CRASH] Starting
+[2021-11-28T20:47:36.544] [INFO] default - No unprocessed tickets
+[2021-11-28T20:47:36.597] [DEBUG] default - [BOT] Items withdraw loaded!
+[2021-11-28T20:47:36.609] [DEBUG] default - [RAIN] Loaded the last rain. Rolling after 286 seconds
+[2021-11-28T20:47:36.816] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:36.993] [INFO] default - match 476056 has ended, winner: won / lost
+[2021-11-28T20:47:37.142] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:37.208] [INFO] default - match 470700 has ended, winner: won / lost
+[2021-11-28T20:47:37.394] [INFO] default - match 476946 has ended, winner: lost / won
+[2021-11-28T20:47:37.582] [INFO] default - match 471256 has ended, winner: lost / won
+[2021-11-28T20:47:38.033] [INFO] default - match 471355 has ended, winner: won / lost
+[2021-11-28T20:47:38.034] [DEBUG] default - [COINPAYMENTS] Checking transactions
+[2021-11-28T20:47:38.035] [DEBUG] default - [COINPAYMENTS] Prices Loaded
+[2021-11-28T20:47:38.193] [INFO] default - match 471257 has ended, winner: won / lost
+[2021-11-28T20:47:38.383] [INFO] default - match 475087 has ended, winner: lost / won
+[2021-11-28T20:47:38.631] [INFO] default - match 477349 has ended, winner: won / lost
+[2021-11-28T20:47:38.638] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:38.925] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:38.973] [INFO] default - match 476041 has ended, winner: lost / won
+[2021-11-28T20:47:39.188] [INFO] default - match 476043 has ended, winner: lost / won
+[2021-11-28T20:47:39.308] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:39.387] [INFO] default - match 476081 has ended, winner: lost / lost
+[2021-11-28T20:47:39.626] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:39.628] [INFO] default - match 475681 has ended, winner: won / lost
+[2021-11-28T20:47:39.786] [INFO] default - match 475408 has ended, winner: won / lost
+[2021-11-28T20:47:39.990] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:40.301] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:40.605] [INFO] default - match 476045 has ended, winner: lost / won
+[2021-11-28T20:47:40.818] [INFO] default - match 476672 has ended, winner: lost / won
+[2021-11-28T20:47:41.698] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:41.974] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:42.458] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:42.619] [DEBUG] default - [CRASH] New Game. Point: 2.41x
+[2021-11-28T20:47:42.689] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:44.030] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:44.377] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:45.811] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:46.141] [WARN] default - [BOT] wissman - Client Login Failed
+[2021-11-28T20:47:48.598] [WARN] default - [BOT] wissman - Client Connected Successfuly
+[2021-11-28T20:47:48.869] [WARN] default - [BOT] wissman - Client Login Failed

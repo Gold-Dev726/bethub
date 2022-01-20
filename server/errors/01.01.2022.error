@@ -1,0 +1,35 @@
+	11:51:36.3636 
+ Error: That amount is larger than your balance!
+    at IncomingMessage.<anonymous> (/var/server/node_modules/coinpayments/dist/internal.js:91:35)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+	11:51:51.5151 
+ Error: That amount is larger than your balance!
+    at IncomingMessage.<anonymous> (/var/server/node_modules/coinpayments/dist/internal.js:91:35)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+	11:51:56.5656 
+ Error: That amount is larger than your balance!
+    at IncomingMessage.<anonymous> (/var/server/node_modules/coinpayments/dist/internal.js:91:35)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+	12:04:03.033 
+ Error: That amount is larger than your balance!
+    at IncomingMessage.<anonymous> (/var/server/node_modules/coinpayments/dist/internal.js:91:35)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+	12:04:07.077 
+ Error: That amount is larger than your balance!
+    at IncomingMessage.<anonymous> (/var/server/node_modules/coinpayments/dist/internal.js:91:35)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+

@@ -1,0 +1,579 @@
+	11:47:12.1212 
+ Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:919:1), <anonymous>:15:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:919:1), <anonymous>:13:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:919:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+
+	11:47:12.1212 
+ Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:919:1), <anonymous>:38:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:919:1), <anonymous>:13:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:919:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+
+	11:47:12.1212 
+ Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_checkRound (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:919:1), <anonymous>:229:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:919:1), <anonymous>:227:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:919:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+
+	11:47:12.1212 
+ Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at crashGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:920:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:920:1), <anonymous>:5:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:920:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+
+	11:47:12.1212 
+ Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at crashGame_checkGame (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:920:1), <anonymous>:289:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:920:1), <anonymous>:287:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:920:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+
+	11:47:12.1212 
+ Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at jackpotGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:921:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:921:1), <anonymous>:5:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:921:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+
+	11:47:12.1212 
+ Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at jackpotGame_checkGames (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:921:1), <anonymous>:70:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:921:1), <anonymous>:67:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:921:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+
+	11:47:12.1212 
+ Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at coinflipGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:922:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:922:1), <anonymous>:5:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:922:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+
+	11:47:12.1212 
+ Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at diceGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:923:1), <anonymous>:9:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:923:1), <anonymous>:7:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:923:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+
+	11:47:12.1212 
+ Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at unboxGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:924:1), <anonymous>:11:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:924:1), <anonymous>:9:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:924:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	12:29:06.066 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	01:49:03.033 
+ Error: read ECONNRESET
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)
+
+	01:49:03.033 
+ Error: read ECONNRESET
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)
+
+	01:49:03.033 
+ Error: read ECONNRESET
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)
+
+	01:49:03.033 
+ Error: read ECONNRESET
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)
+
+	01:49:03.033 
+ Error: read ECONNRESET
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)
+
+	01:49:03.033 
+ Error: read ECONNRESET
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)
+
+	02:10:46.4646 
+ SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:928:1), <anonymous>:184:24)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+
+	02:47:46.4646 
+ SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:928:1), <anonymous>:184:24)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+
+	03:52:47.4747 
+ SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:928:1), <anonymous>:184:24)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+
+	04:09:47.4747 
+ SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:928:1), <anonymous>:184:24)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:11:08.088 
+ Error: connect ETIMEDOUT 217.160.0.238:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+	05:28:48.4848 
+ SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:928:1), <anonymous>:184:24)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+
+	05:45:48.4848 
+ SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:928:1), <anonymous>:184:24)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+
+	06:07:48.4848 
+ SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:928:1), <anonymous>:184:24)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+
+	06:15:48.4848 
+ SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:928:1), <anonymous>:184:24)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+
+	06:25:48.4848 
+ SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:928:1), <anonymous>:184:24)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+
+	07:15:49.4949 
+ SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:928:1), <anonymous>:184:24)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+
+	07:17:48.4848 
+ SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:928:1), <anonymous>:184:24)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+

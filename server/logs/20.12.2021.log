@@ -1,0 +1,797 @@
+[2021-12-20T03:16:17.734] [INFO] default - updating leaderboard
+[2021-12-20T03:16:30.538] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1092:1), <anonymous>:15:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1092:1), <anonymous>:13:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1092:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-12-20T03:16:30.549] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1092:1), <anonymous>:38:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1092:1), <anonymous>:13:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1092:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-12-20T03:16:30.552] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_checkRound (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1092:1), <anonymous>:230:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1092:1), <anonymous>:228:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1092:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-12-20T03:16:30.554] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at crashGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1093:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1093:1), <anonymous>:5:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1093:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-12-20T03:16:30.557] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at crashGame_checkGame (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1093:1), <anonymous>:290:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1093:1), <anonymous>:288:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1093:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-12-20T03:16:30.559] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at jackpotGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1094:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1094:1), <anonymous>:5:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1094:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-12-20T03:16:30.561] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at jackpotGame_checkGames (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1094:1), <anonymous>:70:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1094:1), <anonymous>:67:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1094:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-12-20T03:16:30.564] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at coinflipGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1095:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1095:1), <anonymous>:5:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1095:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-12-20T03:16:30.566] [ERROR] default - Error: connect ETIMEDOUT
+    at PoolConnection.Connection._handleConnectTimeout (E:\dev\projects\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+    --------------------
+    at Protocol._enqueue (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (E:\dev\projects\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (E:\dev\projects\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:202:8)
+    at diceGame_loadHistory (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1096:1), <anonymous>:9:7)
+    at eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1096:1), <anonymous>:7:1)
+    at Object.<anonymous> (E:\dev\projects\vgowitch-server\server.js:1096:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+[2021-12-20T03:16:30.674] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:16:30.675] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:16:30.677] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:16:30.677] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:16:30.678] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:16:30.679] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:16:30.680] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:16:30.680] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:16:31.259] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:31.868] [DEBUG] default - [BOT] Items withdraw loaded!
+[2021-12-20T03:16:32.496] [WARN] default - [BOT] hxtnv - Client Login Successfuly
+[2021-12-20T03:16:32.533] [DEBUG] default - [RAIN] Rolling
+[2021-12-20T03:16:32.997] [WARN] default - [BOT] hxtnv - Client Logout. Client Reconnecting
+[2021-12-20T03:16:33.241] [ERROR] default - Strange error
+[2021-12-20T03:16:33.241] [ERROR] default - Error: ENOENT: no such file or directory, open '/var/server/prices/prices_252490.json'
+    at Object.openSync (fs.js:476:3)
+    at Object.writeFileSync (fs.js:1467:35)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1118:1), <anonymous>:47:7)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/var/server/prices/prices_252490.json'
+}
+[2021-12-20T03:16:33.267] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:16:33.351] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:33.631] [ERROR] default - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`opponent2_name` = 'KFCMM' WHERE `matchid` = '481918'' at line 1
+    at Query.Sequence._packetToError (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:199:23)
+    at Query.eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1101:1), <anonymous>:440:18)
+    at Query.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (E:\dev\projects\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`opponent2_name` = 'KFCMM' WHERE `matchid` = '481918'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "UPDATE `matches` SET `status` = 'abandoned', `opponent1_name` = 'Brugge' `opponent2_name` = 'KFCMM' WHERE `matchid` = '481918'"
+}
+[2021-12-20T03:16:33.634] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:16:34.138] [ERROR] default - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`opponent2_name` = 'Havan Liberty' WHERE `matchid` = '481865'' at line 1
+    at Query.Sequence._packetToError (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:199:23)
+    at Query.eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1101:1), <anonymous>:440:18)
+    at Query.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (E:\dev\projects\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`opponent2_name` = 'Havan Liberty' WHERE `matchid` = '481865'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "UPDATE `matches` SET `status` = 'abandoned', `opponent1_name` = 'Stone' `opponent2_name` = 'Havan Liberty' WHERE `matchid` = '481865'"
+}
+[2021-12-20T03:16:34.141] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:16:34.181] [DEBUG] default - [COINPAYMENTS] Checking transactions
+[2021-12-20T03:16:34.181] [DEBUG] default - [COINPAYMENTS] Prices Loaded
+[2021-12-20T03:16:34.515] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:34.567] [ERROR] default - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`opponent2_name` = 'BankaPEPSI' WHERE `matchid` = '484227'' at line 1
+    at Query.Sequence._packetToError (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:199:23)
+    at Query.eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1101:1), <anonymous>:440:18)
+    at Query.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (E:\dev\projects\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`opponent2_name` = 'BankaPEPSI' WHERE `matchid` = '484227'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "UPDATE `matches` SET `status` = 'abandoned', `opponent1_name` = 'SKADE' `opponent2_name` = 'BankaPEPSI' WHERE `matchid` = '484227'"
+}
+[2021-12-20T03:16:34.569] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:16:34.684] [ERROR] default - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`opponent2_name` = 'Unique' WHERE `matchid` = '485322'' at line 1
+    at Query.Sequence._packetToError (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:199:23)
+    at Query.eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1101:1), <anonymous>:440:18)
+    at Query.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (E:\dev\projects\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`opponent2_name` = 'Unique' WHERE `matchid` = '485322'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "UPDATE `matches` SET `status` = 'abandoned', `opponent1_name` = 'Into the Breach' `opponent2_name` = 'Unique' WHERE `matchid` = '485322'"
+}
+[2021-12-20T03:16:34.687] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:16:35.066] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:35.949] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:36.731] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:37.223] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:37.333] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:37.535] [WARN] default - [BOT] hxtnv - Client Logout. Client Reconnecting
+[2021-12-20T03:16:37.675] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:38.188] [ERROR] default - Strange error
+[2021-12-20T03:16:38.188] [ERROR] default - Error: ENOENT: no such file or directory, open '/var/server/prices/prices_730.json'
+    at Object.openSync (fs.js:476:3)
+    at Object.writeFileSync (fs.js:1467:35)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1118:1), <anonymous>:47:7)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/var/server/prices/prices_730.json'
+}
+[2021-12-20T03:16:38.197] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:38.199] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:16:38.425] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:38.898] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:39.071] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:39.486] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:40.008] [WARN] default - [BOT] hxtnv - Game Coordinator Missing
+[2021-12-20T03:16:40.753] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:41.185] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:41.407] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:41.854] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:42.019] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:42.438] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:42.590] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:42.991] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:43.113] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:43.952] [ERROR] default - Strange error
+[2021-12-20T03:16:43.953] [ERROR] default - Error: ENOENT: no such file or directory, open '/var/server/prices/prices_570.json'
+    at Object.openSync (fs.js:476:3)
+    at Object.writeFileSync (fs.js:1467:35)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1118:1), <anonymous>:47:7)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/var/server/prices/prices_570.json'
+}
+[2021-12-20T03:16:43.957] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:43.959] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:16:44.153] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:44.578] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:44.688] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:45.133] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:45.328] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:45.733] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:46.008] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:46.539] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:46.709] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:47.455] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:48.318] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:48.737] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:48.929] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:49.337] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:49.530] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:49.906] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:50.180] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:50.746] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:50.989] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:51.396] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:51.588] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:52.018] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:52.209] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:52.579] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:52.728] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:53.128] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:53.329] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:53.701] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:53.980] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:54.438] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:54.698] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:55.105] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:55.359] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:55.820] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:56.098] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:56.537] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:56.741] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:57.139] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:57.328] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:57.688] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:57.948] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:58.348] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:58.548] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:58.940] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:59.238] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:16:59.658] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:16:59.848] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:00.257] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:00.528] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:00.977] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:01.238] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:01.655] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:01.908] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:02.380] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:02.528] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:02.939] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:03.078] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:03.481] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:03.689] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:04.031] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:04.228] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:04.582] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:04.768] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:05.178] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:05.288] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:05.697] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:05.928] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:06.350] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:06.498] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:06.897] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:07.178] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:07.616] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:07.758] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:08.137] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:08.268] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:08.722] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:09.008] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:09.457] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:10.598] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:10.983] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:11.128] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:11.536] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:11.738] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:12.265] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:12.488] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:12.831] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:12.928] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:13.336] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:13.479] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:13.883] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:14.158] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:14.641] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:14.750] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:15.415] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:16.678] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:17.106] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:17.308] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:17.856] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:18.048] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:18.429] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:18.566] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:18.758] [ERROR] default - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`opponent2_name` = 'Havan Liberty' WHERE `matchid` = '481865'' at line 1
+    at Query.Sequence._packetToError (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:199:23)
+    at Query.eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1101:1), <anonymous>:440:18)
+    at Query.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (E:\dev\projects\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`opponent2_name` = 'Havan Liberty' WHERE `matchid` = '481865'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "UPDATE `matches` SET `status` = 'abandoned', `opponent1_name` = 'Stone' `opponent2_name` = 'Havan Liberty' WHERE `matchid` = '481865'"
+}
+[2021-12-20T03:17:18.776] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:17:19.111] [ERROR] default - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`opponent2_name` = 'Brugge' WHERE `matchid` = '475171'' at line 1
+    at Query.Sequence._packetToError (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:199:23)
+    at Query.eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1101:1), <anonymous>:440:18)
+    at Query.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (E:\dev\projects\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`opponent2_name` = 'Brugge' WHERE `matchid` = '475171'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "UPDATE `matches` SET `status` = 'abandoned', `opponent1_name` = 'Ambush' `opponent2_name` = 'Brugge' WHERE `matchid` = '475171'"
+}
+[2021-12-20T03:17:19.115] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:17:19.427] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:19.729] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:20.077] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:20.478] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:20.976] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:21.138] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:21.532] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:21.648] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:22.081] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:22.358] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:22.816] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:23.009] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:23.376] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:23.685] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:24.137] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:24.328] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:24.697] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:25.000] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:25.457] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:25.588] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:25.984] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:26.258] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:26.985] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:27.168] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:27.533] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:27.758] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:28.188] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:28.388] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:28.781] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:29.058] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:29.526] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:29.878] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:30.302] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:30.419] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:30.827] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:30.939] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:31.336] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:31.528] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:31.880] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:32.079] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:32.476] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:32.738] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:33.216] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:33.678] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:37.317] [INFO] default - updating leaderboard
+[2021-12-20T03:17:39.632] [DEBUG] default - [ROULETTE] New Game. Hash: b8de0afe13c03155d5c91ffcf4bf7aedbedd555754b3d6f686e2ff87acd3ca67, Secret: 3APQO44gp0BKsCZW, Roll: 6
+[2021-12-20T03:17:39.633] [DEBUG] default - [ROULETTE] Starting
+[2021-12-20T03:17:39.642] [DEBUG] default - [BOT] Items withdraw loaded!
+[2021-12-20T03:17:39.645] [DEBUG] default - [RAIN] Rolling
+[2021-12-20T03:17:39.732] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:40.185] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:40.441] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:17:40.460] [ERROR] default - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`opponent2_name` = 'Havan Liberty' WHERE `matchid` = '480660'' at line 1
+    at Query.Sequence._packetToError (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:199:23)
+    at Query.eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1101:1), <anonymous>:440:18)
+    at Query.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (E:\dev\projects\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`opponent2_name` = 'Havan Liberty' WHERE `matchid` = '480660'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "UPDATE `matches` SET `status` = 'abandoned', `opponent1_name` = 'Keyd Stars' `opponent2_name` = 'Havan Liberty' WHERE `matchid` = '480660'"
+}
+[2021-12-20T03:17:40.467] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:17:40.783] [ERROR] default - Strange error
+[2021-12-20T03:17:40.783] [ERROR] default - Error: ENOENT: no such file or directory, open '/var/server/prices/prices_252490.json'
+    at Object.openSync (fs.js:476:3)
+    at Object.writeFileSync (fs.js:1467:35)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1118:1), <anonymous>:47:7)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/var/server/prices/prices_252490.json'
+}
+[2021-12-20T03:17:40.800] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:17:40.808] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:17:40.826] [ERROR] default - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`opponent2_name` = 'HEET' WHERE `matchid` = '489115'' at line 1
+    at Query.Sequence._packetToError (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (E:\dev\projects\node_modules\mysql\lib\Pool.js:199:23)
+    at Query.eval (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1101:1), <anonymous>:440:18)
+    at Query.<anonymous> (E:\dev\projects\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (E:\dev\projects\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (E:\dev\projects\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\dev\projects\node_modules\mysql\lib\protocol\Parser.js:43:10) {
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`opponent2_name` = 'HEET' WHERE `matchid` = '489115'' at line 1",
+  sqlState: '42000',
+  index: 0,
+  sql: "UPDATE `matches` SET `status` = 'abandoned', `opponent1_name` = 'eSuba' `opponent2_name` = 'HEET' WHERE `matchid` = '489115'"
+}
+[2021-12-20T03:17:40.828] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:17:41.015] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:36:44.878] [INFO] default - updating leaderboard
+[2021-12-20T03:36:46.992] [DEBUG] default - [ROULETTE] New Game. Hash: b8de0afe13c03155d5c91ffcf4bf7aedbedd555754b3d6f686e2ff87acd3ca67, Secret: 3APQO44gp0BKsCZW, Roll: 6
+[2021-12-20T03:36:46.993] [DEBUG] default - [ROULETTE] Starting
+[2021-12-20T03:36:47.184] [DEBUG] default - [BOT] Items withdraw loaded!
+[2021-12-20T03:36:47.185] [DEBUG] default - [RAIN] Rolling
+[2021-12-20T03:36:48.380] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:36:48.535] [ERROR] default - Strange error
+[2021-12-20T03:36:48.536] [ERROR] default - Error: ENOENT: no such file or directory, open '/var/server/prices/prices_252490.json'
+    at Object.openSync (fs.js:476:3)
+    at Object.writeFileSync (fs.js:1467:35)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1124:1), <anonymous>:47:7)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/var/server/prices/prices_252490.json'
+}
+[2021-12-20T03:36:48.543] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:36:48.863] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:36:49.004] [DEBUG] default - [COINPAYMENTS] Checking transactions
+[2021-12-20T03:36:49.004] [DEBUG] default - [COINPAYMENTS] Prices Loaded
+[2021-12-20T03:36:49.451] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:36:54.591] [INFO] default - updating leaderboard
+[2021-12-20T03:36:56.663] [DEBUG] default - [ROULETTE] New Game. Hash: b8de0afe13c03155d5c91ffcf4bf7aedbedd555754b3d6f686e2ff87acd3ca67, Secret: 3APQO44gp0BKsCZW, Roll: 6
+[2021-12-20T03:36:56.664] [DEBUG] default - [ROULETTE] Starting
+[2021-12-20T03:36:56.859] [DEBUG] default - [BOT] Items withdraw loaded!
+[2021-12-20T03:36:56.870] [DEBUG] default - [RAIN] Rolling
+[2021-12-20T03:36:56.965] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:36:57.477] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:36:58.109] [ERROR] default - Strange error
+[2021-12-20T03:36:58.110] [ERROR] default - Error: ENOENT: no such file or directory, open '/var/server/prices/prices_252490.json'
+    at Object.openSync (fs.js:476:3)
+    at Object.writeFileSync (fs.js:1467:35)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1124:1), <anonymous>:47:7)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/var/server/prices/prices_252490.json'
+}
+[2021-12-20T03:36:58.129] [DEBUG] default - Whriting error completed!
+[2021-12-20T03:36:58.594] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:36:58.675] [DEBUG] default - [COINPAYMENTS] Checking transactions
+[2021-12-20T03:36:58.676] [DEBUG] default - [COINPAYMENTS] Prices Loaded
+[2021-12-20T03:36:58.994] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:36:59.572] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:37:00.240] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:37:01.139] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:37:01.583] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:37:02.356] [WARN] default - [BOT] hxtnv - Client Connected Successfuly
+[2021-12-20T03:37:02.670] [DEBUG] default - [CRASH] New Game. Point: 2.41x
+[2021-12-20T03:37:02.872] [WARN] default - [BOT] hxtnv - Client Login Failed
+[2021-12-20T03:37:03.469] [ERROR] default - Strange error
+[2021-12-20T03:37:03.470] [ERROR] default - Error: ENOENT: no such file or directory, open '/var/server/prices/prices_730.json'
+    at Object.openSync (fs.js:476:3)
+    at Object.writeFileSync (fs.js:1467:35)
+    at Request.eval [as _callback] (eval at <anonymous> (E:\dev\projects\vgowitch-server\server.js:1124:1), <anonymous>:47:7)
+    at Request.self.callback (E:\dev\projects\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.<anonymous> (E:\dev\projects\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at IncomingMessage.<anonymous> (E:\dev\projects\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/var/server/prices/prices_730.json'
+}
+[2021-12-20T03:37:03.476] [DEBUG] default - Whriting error completed!
